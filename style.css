@@ -1,8 +1,10 @@
+/*body Tag*/
 
 body{
     margin: 0;
     padding: 0;
 }
+
 /* Main Header Section Start */
 
 .main-header{
@@ -47,7 +49,11 @@ body{
     color: #ffffff;
     font-weight: 800;
     border-radius: 5px;
-    border: 1px solid #000;
+    transition: .5s;
+}
+
+.header-button:hover{
+    box-shadow: 5px 10px 5px #888888;
 }
 
 .main-header .head-image{
@@ -63,6 +69,8 @@ body{
 }
 
 /* Main Header Section End */
+
+/* Mission Section Start */
 
 .mission-area{
     display: flex;
@@ -116,6 +124,10 @@ body{
 #color3{
     background-color: #D8BFD8;
 }
+
+/* Mission Section Ends */
+
+/* Develop Section Start */
 
 .develop-area{
     display: flex;
@@ -173,6 +185,10 @@ body{
     bottom: 0;
 }
 
+/* Develop Section Ends */
+
+/* Portfolio Section Start */
+
 .portfolio-area{
     margin-top: 100px;
 }
@@ -203,12 +219,17 @@ body{
 .portfolio-area .portfolio-main .portfolio-image img{
     height: 100%;
     width: 100%;
+    transition: .5s;
 }
 
 .portfolio-area .portfolio-main .portfolio-image img:hover{
     box-shadow: 5px 10px 5px #888888;
-    transition: .5s;
+
 }
+
+/* Portfolio Section Ends */
+
+/* Footer Section Start */
 
 footer .footer-head{
     background-color: #0B0D17;
@@ -230,6 +251,7 @@ footer .footer-head h2 span{
 footer .footer-head p{
     color: #ffffff;
     padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .footer-head a{
@@ -237,3 +259,5 @@ footer .footer-head p{
     color: #099AF8;
     padding: 0 5px;
 }
+
+/* Footer Section Ends */
