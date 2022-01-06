@@ -1,3 +1,8 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
 /* Main Header Section Start */
 
 .main-header{
@@ -123,29 +128,27 @@
     width: 50%;
     position: relative;
     z-index: 1;
+    margin-left: 20px;
 }
 
-.develop-area .develop-image img{
+.develop-area .develop-image .develop-extra{
    height: 100%;
    width: 100%;
 }
 
-.develop-area .develop-image .develop-extra{
+.develop-area .develop-image .develop-shape{
     height: 150px;
     width: 150px;
     position: absolute;
-    top: 100px;
-    z-index: 99;
+    left: -25px;
+    z-index: -1;
+    top: 200px;
 }
 
 #read-more{
     margin-bottom: 50px;
 }
 
-.develop-area .develop-image .develop-extra img{
-    height: 100%;
-    width: 100%;
-}
 
 .develop-area .develop-text{
     width: 50%;
@@ -161,4 +164,76 @@
     line-height: 50px;
     font-size: 40px;
 }
+.develop-shape2{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: -25px;
+    z-index: -1;
+    bottom: 0;
+}
 
+.portfolio-area{
+    margin-top: 100px;
+}
+
+.portfolio-area .portfolio-header h2{
+    font-family: 'Inter', sans-serif;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.portfolio-area .portfolio-header h2 span{
+    color: #099AF8;
+}
+
+.portfolio-area .portfolio-main{
+    display: flex;
+}
+
+.portfolio-area .portfolio-main .portfolio-image{
+    width: 33.33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.portfolio-area .portfolio-main .portfolio-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-area .portfolio-main .portfolio-image img:hover{
+    box-shadow: 5px 10px 5px #888888;
+    transition: .5s;
+}
+
+footer .footer-head{
+    background-color: #0B0D17;
+    text-align: center;
+
+}
+
+footer .footer-head h2{
+    font-family: 'Cookie', cursive;
+    line-height: 50px;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+footer .footer-head h2 span{
+    color: #099AF8;
+}
+
+footer .footer-head p{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.footer-head a{
+    text-decoration: none;
+    color: #099AF8;
+    padding: 0 5px;
+}
